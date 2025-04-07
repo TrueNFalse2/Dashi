@@ -3,57 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>✨ Elegant Data Analytics</title>
+    <title>📊 Professional Data Analytics</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Georgia', serif;
+            font-family: 'Arial', sans-serif;
         }
 
         body {
-            background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
-            color: #333;
+            background: #f4f7fa;
+            color: #2d3748;
             line-height: 1.6;
             overflow-x: hidden;
         }
 
         /* Header Styles */
         header {
-            padding: 3rem 2rem;
+            padding: 2.5rem 2rem;
             text-align: center;
-            background: rgba(255, 255, 255, 0.9);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            animation: fadeIn 1s ease-out;
+            background: #ffffff;
+            border-bottom: 1px solid #e2e8f0;
+            animation: fadeIn 0.8s ease-out;
         }
 
         h1 {
-            font-size: 3.5rem;
-            color: #4a4e69;
-            letter-spacing: 2px;
+            font-size: 2.8rem;
+            color: #1a202c;
+            font-weight: 600;
         }
 
         h1 span {
-            color: #9a8cff;
-            font-style: italic;
+            color: #3182ce;
+            font-weight: 700;
         }
 
         h2 {
-            font-size: 2.2rem;
-            margin: 1.5rem 0;
-            color: #6b48ff;
-            font-weight: 400;
+            font-size: 1.8rem;
+            margin: 1rem 0;
+            color: #4a5568;
+            font-weight: 500;
         }
 
         /* Navigation */
         nav {
-            background: linear-gradient(to right, #9a8cff, #6b48ff);
+            background: #2d3748;
             padding: 1rem;
             position: sticky;
             top: 0;
             z-index: 100;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+            border-bottom: 1px solid #4a5568;
         }
 
         nav ul {
@@ -63,73 +63,61 @@
         }
 
         nav ul li {
-            margin: 0 2.5rem;
+            margin: 0 2rem;
         }
 
         nav ul li a {
-            color: #fff;
+            color: #e2e8f0;
             text-decoration: none;
-            font-size: 1.1rem;
-            transition: all 0.3s ease;
-            letter-spacing: 1px;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
         }
 
         nav ul li a:hover {
-            color: #f1e4ff;
-            transform: translateY(-2px);
-            display: inline-block;
+            color: #63b3ed;
         }
 
         /* Main Content */
         .container {
-            max-width: 1300px;
-            margin: 3rem auto;
+            max-width: 1280px;
+            margin: 2rem auto;
             padding: 0 2rem;
         }
 
         .section {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 20px;
-            padding: 2.5rem;
-            margin-bottom: 3rem;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-            animation: fadeInUp 1s ease-out;
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            animation: fadeInUp 0.8s ease-out;
         }
 
         /* Tableau Section */
         .tableau-section {
-            background: linear-gradient(45deg, #f8e1ff, #d9e4ff);
-            padding: 3rem;
-            border-radius: 25px;
+            background: #edf2f7;
+            padding: 2.5rem;
+            border-radius: 10px;
+            border: 1px solid #e2e8f0;
             position: relative;
-            overflow: hidden;
-            border: 1px solid #e0c3fc;
-        }
-
-        .tableau-section::before {
-            content: '🌸';
-            position: absolute;
-            font-size: 6rem;
-            top: -3rem;
-            right: -3rem;
-            opacity: 0.15;
-            transform: rotate(15deg);
         }
 
         .tableauPlaceholder {
-            margin-top: 2rem;
-            border-radius: 15px;
+            margin-top: 1.5rem;
+            border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
         /* Footer */
         footer {
             text-align: center;
-            padding: 2rem;
-            background: rgba(255, 255, 255, 0.9);
-            color: #4a4e69;
-            font-size: 1rem;
+            padding: 1.5rem;
+            background: #ffffff;
+            color: #718096;
+            font-size: 0.9rem;
+            border-top: 1px solid #e2e8f0;
         }
 
         /* Animations */
@@ -139,45 +127,43 @@
         }
 
         @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(30px); }
+            from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
-        .pulse {
-            animation: pulse 2s infinite;
+        .highlight {
+            transition: transform 0.3s ease;
         }
 
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.02); }
-            100% { transform: scale(1); }
+        .highlight:hover {
+            transform: translateY(-5px);
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>✨ <span>Data</span> Elegance</h1>
-        <p>A Beautiful Analytics Experience</p>
+        <h1><span>Data</span> Analytics Suite</h1>
+        <p>Precision Insights for Professionals</p>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#home">Home 🌟</a></li>
-            <li><a href="#dashboard">Dashboard 📊</a></li>
-            <li><a href="#insights">Insights 💡</a></li>
-            <li><a href="#contact">Contact 🌿</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#insights">Insights</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <div class="container">
         <div class="section" id="home">
-            <h2>Welcome to Beauty in Data</h2>
-            <p>Explore insights with grace and style—where analytics meets art. 🌹</p>
+            <h2>Welcome</h2>
+            <p>Unlock actionable insights with our advanced analytics platform.</p>
         </div>
 
-        <div class="section tableau-section" id="dashboard">
-            <h2 class="pulse">Susage Dashboard 🍇</h2>
-            <p>Immerse yourself in this stunning Tableau visualization below.</p>
+        <div class="section tableau-section highlight" id="dashboard">
+            <h2>Susage Dashboard</h2>
+            <p>Explore our interactive Tableau visualization below.</p>
             <div class='tableauPlaceholder' id='viz1744034027602' style='position: relative'>
                 <noscript>
                     <a href='#'>
@@ -203,13 +189,13 @@
         </div>
 
         <div class="section" id="insights">
-            <h2>Key Insights 🌟</h2>
-            <p>Uncover trends and stories with our beautifully crafted dashboard.</p>
+            <h2>Key Insights</h2>
+            <p>Analyze trends and make data-driven decisions with ease.</p>
         </div>
     </div>
 
     <footer>
-        <p>© 2025 Elegant Analytics</p>
+        <p>© 2025 Data Analytics Suite | Developed by xAI</p>
     </footer>
 
     <script type='text/javascript'>
